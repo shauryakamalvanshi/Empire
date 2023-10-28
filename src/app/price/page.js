@@ -1,5 +1,5 @@
 import React from "react";
-import Pricecard from "@/components/priceCard";
+import Pricecard from "@/components/PriceCard";
 import styles from "@/styles/price.module.css";
 
 const page = () => {

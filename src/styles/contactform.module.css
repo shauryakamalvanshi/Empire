@@ -1,0 +1,42 @@
+.sucess{
+    color: green;
+  }
+  .contact_form {
+    font-size: 20px;
+    text-align: center;
+    width: 90vw;
+    height: 585px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(223, 174, 174);
+    border-radius: 5px;
+  }
+  
+  .textarea {
+    border: 1px solid rgb(223, 174, 174);
+  
+    height: 100px; 
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .input_field {
+    border: 1px solid rgb(223, 174, 174);
+    width: 100%;
+    padding: 1px;
+    margin-bottom: 10px;
+  }
+  .label {
+    width: 100%;
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .submit_button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #191111;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }

@@ -3,7 +3,7 @@ import styles from "@/styles/contactcard.module.css";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
 import PlaceIcon from '@mui/icons-material/Place';
-import { Height } from "@mui/icons-material";
+
 
 const Contactcard = (params) => {
   const logo = params.logo;

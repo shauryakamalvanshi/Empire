@@ -10,7 +10,10 @@ const ContactSection = () => {
 help you reach out to your prospects.</h1>
     </div>
     <div className={styles.up}>
-    contact us : +91 8400921622 <br />
+    <div className={styles.number}>
+    contact us : +91 8400921622 
+    </div>
+    <br />
     Mail us : Satyam@empiretechnologies@gmail.com
     </div>
     </div>

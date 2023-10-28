@@ -23,17 +23,21 @@
     .contactSection{
         margin: 0px;
         padding: 0px;
-        height: 50vh;
+        height: 63vh;
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
     }
     .low{
-      width: 90%;
+      width: 80%;
     }
     .up{
+        font-size: 13px;
         margin-top: 20px;
+    }
+    .number{
+        font-size: 19px;
     }
     
 }
