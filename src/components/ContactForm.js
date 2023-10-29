@@ -11,7 +11,6 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    alert("hello");
 
     try {
       console.log("trying");
