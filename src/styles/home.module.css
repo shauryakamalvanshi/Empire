@@ -121,7 +121,7 @@ margin-top: 10px;
 
   @media (max-width: 1373px){
     .heroSection{
-      background-color: red;
+      /* background-color: red; */
       display: flex;
       flex-direction: column;
     }
