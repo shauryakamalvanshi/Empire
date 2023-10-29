@@ -52,7 +52,6 @@
   }
   .left iframe {
     margin: auto;
-
     height: 400px;
   }
 
@@ -84,5 +83,11 @@
     display: flex;
     justify-content: center;
     margin-top: 60px;
+  }
+}
+
+@media (max-width: 1184px){
+  .left iframe{
+    width: 90vw;
   }
 }

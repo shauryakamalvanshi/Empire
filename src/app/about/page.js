@@ -12,6 +12,7 @@ const Page = () => {
         <Image
           src="https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg"
           alt="about"
+          layout="responsive" 
           width={800} // Set the desired width
           height={500} // Set the desired height
         />

@@ -4,7 +4,7 @@
   .contact_form {
     font-size: 20px;
     text-align: center;
-    width: 90vw;
+    width: 40vw;
     height: 585px;
     margin: 0 auto;
     padding: 20px;
@@ -14,7 +14,6 @@
   
   .textarea {
     border: 1px solid rgb(223, 174, 174);
-  
     height: 100px; 
     padding: 5px;
     margin-bottom: 10px;
@@ -39,4 +38,11 @@
     border: none;
     padding: 10px 20px;
     cursor: pointer;
+  }
+
+  @media (max-width: 1184px) {
+    
+    .contact_form {
+      width: 95vw;
+    }
   }

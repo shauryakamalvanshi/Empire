@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import styles from "@/styles/admin.module.css";
 import Deleteicon from '@/components/Deleteicon';
 
+
 const getData = async () => {
   try {
     const res = await fetch(`/api/users/contact/`, {
@@ -38,6 +39,7 @@ const Page = () => {
   }, [topics]);
  
   return (
+
     <div>
       <table className={styles.table}>
         <thead className={styles.thead}>
@@ -64,6 +66,7 @@ const Page = () => {
         </tbody>
       </table>
     </div>
+
   );
 };
 
